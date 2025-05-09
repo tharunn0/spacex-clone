@@ -1,0 +1,224 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html,
+body {
+    overscroll-behavior: none;
+}
+
+/* -----NAVBAR----- */
+
+nav {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+}
+
+.sub-nav-left {
+    background-color: black;
+    height: 100px;
+    width: 100px;
+}
+
+.navbar {
+    height: 100px;
+    width: 1400px;
+    background-color: black;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    height: 25px;
+    width: 210px;
+}
+
+.nav-list ul {
+    display: flex;
+}
+
+.nav-list li {
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.sub-nav-right {
+    height: 100px;
+    width: 100px;
+
+    display: flex;
+    background-color: black;
+    align-items: center;
+}
+
+.shop a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.menu img {
+    filter: invert(1);
+    height: 30px;
+    width: 30px;
+    margin-top: 5px;
+    margin-right: 20px;
+
+}
+
+/* -----BODY / ARTICLE---- */
+
+.body1,
+.body2,
+.body3,
+.body4 {
+    width: 1400px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.body4 {
+    height: auto;
+}
+
+.background1 {
+    height: 800px;
+    width: 100%;
+
+    background-image: url("https://sxcontent9668.azureedge.us/cms-assets/assets/Launch_Page_Starlink1_vertical_18_DESKTOP_3d33146ef8.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.description1 h4,
+.title1 h2 {
+    color: white;
+    font-size: 28px;
+}
+
+.description1 h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 200;
+}
+
+.about1,
+.about2,
+.about3,
+.about4 {
+    padding: 40% 10% 0;
+}
+
+button {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    margin-top: 20px;
+    padding: 20px 50px;
+}
+
+.background2 {
+    height: 800px;
+    width: 100%;
+
+    background-image: url("https://sxcontent9668.azureedge.us/cms-assets/assets/Star6_93_050625_DSC_2593_desktop_beaee09ee4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.description2 h4,
+.title2 h2 {
+    color: white;
+    font-size: 28px;
+}
+
+.description2 h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 200;
+}
+
+.background3 {
+    height: 800px;
+    width: 100%;
+
+    background-image: url("https://sxcontent9668.azureedge.us/cms-assets/assets/Eva_Suit_Desktop_alternate_1cf9bae18e.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.description3 h4,
+.title3 h2 {
+    color: white;
+    font-size: 28px;
+}
+
+.description3 h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.background4 {
+    height: 800px;
+    width: 100%;
+
+    background-image: url("https://sxcontent9668.azureedge.us/cms-assets/assets/make_life_multiplanetary_desktop_3fa7cff73c.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.description4 h4,
+.title4 h2 {
+    color: white;
+    font-size: 28px;
+}
+
+.description4 h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* -----FOOTER----- */
+
+.footer {
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+}
+
+.footer span {
+    margin-right: 30px;
+    font-size: 10px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    margin-right: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
